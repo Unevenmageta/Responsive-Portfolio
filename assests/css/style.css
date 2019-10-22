@@ -173,20 +173,50 @@ list-style-type: none;
     
   }
   
-  .work h3 {
+   .firstLink {
     position: absolute;
     bottom: 20px;
     width: 100%;
     padding: 15px;
+    height: 10px;
     margin-bottom: 0;
     font-weight: 300;
-    line-height: 30px;
+    line-height: 0px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border: 0px;
+    border-bottom: 1px;
+    border-style: solid ;
+    border-color: black;
+    margin-bottom: 30px;
+
+  }
+
+  .secondLink{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    height: 10px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 0px;
     color: #ffffff;
     text-align: center;
     background: #4aaaa5;
     border-bottom: 0;
+
   }
-  
+
+   /* #LinkDiv{ 
+     position: relative;
+    width: 100%;
+     
+   }  */
+   
+
+  /* About me Picture */
   .auth-image {
     float: left;
     width: 200px;
@@ -235,6 +265,11 @@ list-style-type: none;
     background: #4aaaa5;
     border: 0 none;
     margin-left: 40px;
+  }
+
+  .ulysses a{
+    text-decoration: none;
+    color: navy;
   }
 
 
